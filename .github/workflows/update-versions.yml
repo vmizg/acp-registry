@@ -491,7 +491,7 @@ jobs:
         env:
           GH_APP_TOKEN: ${{ steps.generate-token.outputs.token }}
         run: |
-          git -c http.extraheader="AUTHORIZATION: Bearer $GH_APP_TOKEN" push origin main
+          git -c "http.extraheader=AUTHORIZATION: Bearer ${GH_APP_TOKEN}" push origin main
 
   notify-apply-failure:
     needs: [check-versions, apply-updates, verify-updates, commit-updates]
