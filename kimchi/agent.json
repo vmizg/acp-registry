@@ -1,0 +1,62 @@
+{
+  "id": "kimchi",
+  "name": "Kimchi",
+  "version": "0.1.69",
+  "description": "Coding agent powered by multi-model orchestration",
+  "repository": "https://github.com/getkimchi/kimchi",
+  "website": "https://kimchi.dev",
+  "authors": [
+    "Kimchi"
+  ],
+  "license": "Apache-2.0",
+  "icon": "./icon.svg",
+  "distribution": {
+    "binary": {
+      "darwin-aarch64": {
+        "archive": "https://github.com/getkimchi/kimchi/releases/download/v0.1.69/kimchi_darwin_arm64.tar.gz",
+        "cmd": "./bin/kimchi",
+        "args": [
+          "--mode",
+          "acp"
+        ],
+        "sha256": "a5b70255bbbdaa40ce7fa2f3dc02483a6cca7e99624ed16a3bf253008ab9cbf1"
+      },
+      "darwin-x86_64": {
+        "archive": "https://github.com/getkimchi/kimchi/releases/download/v0.1.69/kimchi_darwin_amd64.tar.gz",
+        "cmd": "./bin/kimchi",
+        "args": [
+          "--mode",
+          "acp"
+        ],
+        "sha256": "12b7a1df28613487c2318269d014ea5363634509b7f750deb8e4acf8821953c9"
+      },
+      "linux-aarch64": {
+        "archive": "https://github.com/getkimchi/kimchi/releases/download/v0.1.69/kimchi_linux_arm64.tar.gz",
+        "cmd": "./bin/kimchi",
+        "args": [
+          "--mode",
+          "acp"
+        ],
+        "sha256": "68b573d761f7117437fb1dbf607cb9253043d3313d34cdfd42d14be42949ceb0"
+      },
+      "linux-x86_64": {
+        "archive": "https://github.com/getkimchi/kimchi/releases/download/v0.1.69/kimchi_linux_amd64.tar.gz",
+        "cmd": "./bin/kimchi",
+        "args": [
+          "--mode",
+          "acp"
+        ],
+        "sha256": "4b151404dcf535c68968eac3343e36e091c49699af15c624ee4a0e5ad1c13680"
+      },
+      "windows-x86_64": {
+        "archive": "https://github.com/getkimchi/kimchi/releases/download/v0.1.69/kimchi_windows_amd64.zip",
+        "cmd": "./bin/kimchi.exe",
+        "args": [
+          "--mode",
+          "acp"
+        ],
+        "sha256": "7ccdfbd983ca81fe1af560e18e0da1d8bd8b57d8e8c824fe988136e371973b9d"
+      }
+    }
+  }
+}
